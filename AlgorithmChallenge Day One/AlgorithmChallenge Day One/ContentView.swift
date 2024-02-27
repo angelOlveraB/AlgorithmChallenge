@@ -29,7 +29,7 @@ struct ContentView: View {
             })
 
             Button(action: {
-                viewModel.showText()
+                viewModel.sortText()
             }) {
                 Text("Mostrar")
                     .foregroundColor(.white)

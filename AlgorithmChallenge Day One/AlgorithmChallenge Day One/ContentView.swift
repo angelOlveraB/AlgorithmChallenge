@@ -7,13 +7,47 @@
 
 import SwiftUI
 
+struct AlgorithmDayOne: View {
+    @StateObject private var viewModel = AlgorithmDayOneViewModel()
+
+    var body: some View {
+        ContentView(viewModel: viewModel)
+    }
+}
+
 struct ContentView: View {
+    @ObservedObject var viewModel: AlgorithmDayOneViewModel
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Escribe algo:")
+                .font(.headline)
+                .padding()
+
+            TextField("Ingresa texto", text: $viewModel.userInput, onEditingChanged: { _ in
+                viewModel.updateButtonState()
+            })
+
+            Button(action: {
+                viewModel.showText()
+            }) {
+                Text("Mostrar")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+            .disabled(viewModel.isButtonEnabled)
+
+            Spacer()
+
+            Text("Texto ingresado:")
+                .font(.headline)
+                .padding()
+
+            Text(viewModel.displayedText)
+                .multilineTextAlignment(.center)
+                .padding()
         }
         .padding()
     }
@@ -21,6 +55,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AlgorithmDayOne()
     }
 }

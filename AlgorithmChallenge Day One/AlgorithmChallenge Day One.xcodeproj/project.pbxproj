@@ -14,6 +14,7 @@
 		5B32B4142B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4132B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneTests.swift */; };
 		5B32B41E2B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B41D2B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneUITests.swift */; };
 		5B32B4202B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B41F2B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneUITestsLaunchTests.swift */; };
+		5B32B42D2B8E5F99003C98D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B42C2B8E5F99003C98D1 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5B32B4192B8E53DA003C98D1 /* AlgorithmChallenge Day OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlgorithmChallenge Day OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B32B41D2B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmChallenge_Day_OneUITests.swift; sourceTree = "<group>"; };
 		5B32B41F2B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmChallenge_Day_OneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B32B42C2B8E5F99003C98D1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5B32B4022B8E53D9003C98D1 /* AlgorithmChallenge_Day_OneApp.swift */,
 				5B32B4042B8E53D9003C98D1 /* ContentView.swift */,
+				5B32B42C2B8E5F99003C98D1 /* ViewModel.swift */,
 				5B32B4062B8E53DA003C98D1 /* Assets.xcassets */,
 				5B32B4082B8E53DA003C98D1 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B32B4052B8E53D9003C98D1 /* ContentView.swift in Sources */,
+				5B32B42D2B8E5F99003C98D1 /* ViewModel.swift in Sources */,
 				5B32B4032B8E53D9003C98D1 /* AlgorithmChallenge_Day_OneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,9 +24,7 @@ struct ContentView: View {
                 .font(.headline)
                 .padding()
 
-            TextField("Ingresa texto", text: $viewModel.userInput, onEditingChanged: { _ in
-                viewModel.updateButtonState()
-            })
+            TextField("Ingresa texto", text: $viewModel.userInput)
 
             Button(action: {
                 viewModel.sortText()
@@ -37,7 +35,6 @@ struct ContentView: View {
                     .background(Color.blue)
                     .cornerRadius(10)
             }
-            .disabled(viewModel.isButtonEnabled)
 
             Spacer()
 

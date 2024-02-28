@@ -84,8 +84,9 @@
 		5B32B3F62B8E53D8003C98D1 = {
 			isa = PBXGroup;
 			children = (
-				5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge Day One */,
+				5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge */,
 				5B32B4122B8E53DA003C98D1 /* AlgorithmChallenge Day OneTests */,
+				5B32B4382B8FDFD7003C98D1 /* AlgorithmChallengeDayTwoTest */,
 				5B32B41C2B8E53DA003C98D1 /* AlgorithmChallenge Day OneUITests */,
 				5B32B4002B8E53D8003C98D1 /* Products */,
 			);
@@ -101,7 +102,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge Day One */ = {
+		5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge */ = {
 			isa = PBXGroup;
 			children = (
 				5B32B4022B8E53D9003C98D1 /* AlgorithmChallenge_Day_OneApp.swift */,
@@ -111,7 +112,7 @@
 				5B32B4082B8E53DA003C98D1 /* Preview Content */,
 				5B32B4332B8FCC80003C98D1 /* BalancedParentheses */,
 			);
-			path = "AlgorithmChallenge Day One";
+			path = AlgorithmChallenge;
 			sourceTree = "<group>";
 		};
 		5B32B4082B8E53DA003C98D1 /* Preview Content */ = {
@@ -126,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				5B32B4132B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneTests.swift */,
-				5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */,
 			);
 			path = "AlgorithmChallenge Day OneTests";
 			sourceTree = "<group>";
@@ -156,6 +156,14 @@
 				5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */,
 			);
 			path = BalancedParentheses;
+			sourceTree = "<group>";
+		};
+		5B32B4382B8FDFD7003C98D1 /* AlgorithmChallengeDayTwoTest */ = {
+			isa = PBXGroup;
+			children = (
+				5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */,
+			);
+			path = AlgorithmChallengeDayTwoTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

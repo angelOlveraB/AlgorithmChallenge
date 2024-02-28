@@ -47,6 +47,8 @@ struct AlgorithmDayOneView: View {
                 .padding()
         }
         .padding()
+        .navigationBarTitle("Alphanumeric String Sort")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

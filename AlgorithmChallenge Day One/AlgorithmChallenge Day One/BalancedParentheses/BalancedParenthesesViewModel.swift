@@ -20,6 +20,7 @@ class BalancedParenthesesViewModel: ObservableObject {
                 let topElement = stack.popLast() ?? "#"
                 if openParen != topElement {
                     displayedText = "invalid"
+                    return
                 }
             } else {
                 stack.append(char)
@@ -28,16 +29,6 @@ class BalancedParenthesesViewModel: ObservableObject {
 
         displayedText = stack.isEmpty ? "valid" : "invalid"
     }
-/*
-    // Examples
-    print(isValidParentheses("()"))  // Output: valid
-    print(isValidParentheses("(hello, world)"))  // Output: valid
-    print(isValidParentheses("Random text (as this) is ok()."))  // Output: valid
-    print(isValidParentheses(")("))  // Output: invalid
-    print(isValidParentheses("(Hello (,) world (!))"))  // Output: valid
-    print(isValidParentheses(")()("))  // Output: invalid
-    print(isValidParentheses(")()(("))  // Output: invalid
- */
 }
 
 

@@ -47,6 +47,8 @@ struct BalancedParenthesesView: View {
                 .padding()
         }
         .padding()
+        .navigationBarTitle("Balanced parentheses")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

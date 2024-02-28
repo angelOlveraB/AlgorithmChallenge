@@ -18,6 +18,7 @@
 		5B32B42F2B8FC830003C98D1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B42E2B8FC830003C98D1 /* MenuView.swift */; };
 		5B32B4322B8FCC7B003C98D1 /* BalancedParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4312B8FCC7B003C98D1 /* BalancedParentheses.swift */; };
 		5B32B4352B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */; };
+		5B32B4372B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5B32B42E2B8FC830003C98D1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		5B32B4312B8FCC7B003C98D1 /* BalancedParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedParentheses.swift; sourceTree = "<group>"; };
 		5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedParenthesesViewModel.swift; sourceTree = "<group>"; };
+		5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balanced Parentheses UnitTest.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				5B32B4132B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneTests.swift */,
+				5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */,
 			);
 			path = "AlgorithmChallenge Day OneTests";
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B32B4372B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift in Sources */,
 				5B32B4142B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

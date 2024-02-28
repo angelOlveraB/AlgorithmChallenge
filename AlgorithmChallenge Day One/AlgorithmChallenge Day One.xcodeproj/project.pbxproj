@@ -17,6 +17,7 @@
 		5B32B42D2B8E5F99003C98D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B42C2B8E5F99003C98D1 /* ViewModel.swift */; };
 		5B32B42F2B8FC830003C98D1 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B42E2B8FC830003C98D1 /* MenuView.swift */; };
 		5B32B4322B8FCC7B003C98D1 /* BalancedParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4312B8FCC7B003C98D1 /* BalancedParentheses.swift */; };
+		5B32B4352B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5B32B42C2B8E5F99003C98D1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5B32B42E2B8FC830003C98D1 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		5B32B4312B8FCC7B003C98D1 /* BalancedParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedParentheses.swift; sourceTree = "<group>"; };
+		5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedParenthesesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				5B32B4312B8FCC7B003C98D1 /* BalancedParentheses.swift */,
+				5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */,
 			);
 			path = BalancedParentheses;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				5B32B4052B8E53D9003C98D1 /* AlgorithmDayOneView.swift in Sources */,
 				5B32B42F2B8FC830003C98D1 /* MenuView.swift in Sources */,
 				5B32B42D2B8E5F99003C98D1 /* ViewModel.swift in Sources */,
+				5B32B4352B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift in Sources */,
 				5B32B4032B8E53D9003C98D1 /* AlgorithmChallenge_Day_OneApp.swift in Sources */,
 				5B32B4322B8FCC7B003C98D1 /* BalancedParentheses.swift in Sources */,
 			);

@@ -8,8 +8,45 @@
 import SwiftUI
 
 struct BalancedParentheses: View {
+    @StateObject private var viewModel = BalancedParenthesesViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        BalancedParenthesesView(viewModel: viewModel)
+    }
+}
+
+struct BalancedParenthesesView: View {
+    @ObservedObject var viewModel: BalancedParenthesesViewModel
+    
+    var body: some View {
+        VStack {
+            Text("Escribe algo:")
+                .font(.headline)
+                .padding()
+
+            TextField("Ingresa texto", text: $viewModel.userInput)
+
+            Button(action: {
+                viewModel.isValidParentheses()
+            }) {
+                Text("Mostrar")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+
+            Spacer()
+
+            Text("Texto ingresado:")
+                .font(.headline)
+                .padding()
+
+            Text(viewModel.displayedText)
+                .multilineTextAlignment(.center)
+                .padding()
+        }
+        .padding()
     }
 }
 
@@ -18,3 +55,12 @@ struct BalancedParentheses_Previews: PreviewProvider {
         BalancedParentheses()
     }
 }
+
+
+//struct AlgorithmDayOne: View {
+//    @StateObject private var viewModel = AlgorithmDayOneViewModel()
+//
+//    var body: some View {
+//        AlgorithmDayOneView(viewModel: viewModel)
+//    }
+//}

@@ -11,11 +11,11 @@ struct AlgorithmDayOne: View {
     @StateObject private var viewModel = AlgorithmDayOneViewModel()
 
     var body: some View {
-        ContentView(viewModel: viewModel)
+        AlgorithmDayOneView(viewModel: viewModel)
     }
 }
 
-struct ContentView: View {
+struct AlgorithmDayOneView: View {
     @ObservedObject var viewModel: AlgorithmDayOneViewModel
 
     var body: some View {

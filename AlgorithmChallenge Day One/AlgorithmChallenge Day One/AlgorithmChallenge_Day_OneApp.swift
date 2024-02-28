@@ -11,7 +11,7 @@ import SwiftUI
 struct AlgorithmChallenge_Day_OneApp: App {
     var body: some Scene {
         WindowGroup {
-            AlgorithmDayOneView(viewModel: AlgorithmDayOneViewModel())
+            MenuView()
         }
     }
 }

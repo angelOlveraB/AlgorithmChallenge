@@ -21,6 +21,7 @@
 		5B32B4372B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */; };
 		5BCE2A752B911015002C9918 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A742B911015002C9918 /* TicTacToeView.swift */; };
 		5BCE2A772B91113D002C9918 /* TicTacToeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */; };
+		5BCE2A7B2B9128C5002C9918 /* TicTacToeUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A7A2B9128C5002C9918 /* TicTacToeUnitTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balanced Parentheses UnitTest.swift"; sourceTree = "<group>"; };
 		5BCE2A742B911015002C9918 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
 		5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewModel.swift; sourceTree = "<group>"; };
+		5BCE2A7A2B9128C5002C9918 /* TicTacToeUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUnitTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge Day One */,
+				5BCE2A792B912875002C9918 /* TicTacToeUnitTest */,
 				5B32B4122B8E53DA003C98D1 /* AlgorithmChallenge Day OneTests */,
 				5B32B4382B8FDFD7003C98D1 /* AlgorithmChallengeDayTwoTest */,
 				5B32B41C2B8E53DA003C98D1 /* AlgorithmChallenge Day OneUITests */,
@@ -178,6 +181,14 @@
 				5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		5BCE2A792B912875002C9918 /* TicTacToeUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				5BCE2A7A2B9128C5002C9918 /* TicTacToeUnitTest.swift */,
+			);
+			path = TicTacToeUnitTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B32B4372B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift in Sources */,
+				5BCE2A7B2B9128C5002C9918 /* TicTacToeUnitTest.swift in Sources */,
 				5B32B4142B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,7 +550,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QSVNAXXAAU;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.AlgorithmChallenge-Day-OneTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -558,7 +570,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QSVNAXXAAU;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.obed.AlgorithmChallenge-Day-OneTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

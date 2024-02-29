@@ -19,6 +19,8 @@
 		5B32B4322B8FCC7B003C98D1 /* BalancedParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4312B8FCC7B003C98D1 /* BalancedParentheses.swift */; };
 		5B32B4352B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */; };
 		5B32B4372B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */; };
+		5BCE2A752B911015002C9918 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A742B911015002C9918 /* TicTacToeView.swift */; };
+		5BCE2A772B91113D002C9918 /* TicTacToeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		5B32B4312B8FCC7B003C98D1 /* BalancedParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedParentheses.swift; sourceTree = "<group>"; };
 		5B32B4342B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedParenthesesViewModel.swift; sourceTree = "<group>"; };
 		5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balanced Parentheses UnitTest.swift"; sourceTree = "<group>"; };
+		5BCE2A742B911015002C9918 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
+		5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,7 @@
 		5B32B3F62B8E53D8003C98D1 = {
 			isa = PBXGroup;
 			children = (
-				5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge */,
+				5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge Day One */,
 				5B32B4122B8E53DA003C98D1 /* AlgorithmChallenge Day OneTests */,
 				5B32B4382B8FDFD7003C98D1 /* AlgorithmChallengeDayTwoTest */,
 				5B32B41C2B8E53DA003C98D1 /* AlgorithmChallenge Day OneUITests */,
@@ -102,17 +106,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge */ = {
+		5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge Day One */ = {
 			isa = PBXGroup;
 			children = (
 				5B32B4022B8E53D9003C98D1 /* AlgorithmChallenge_Day_OneApp.swift */,
 				5B32B42E2B8FC830003C98D1 /* MenuView.swift */,
 				5B32B4302B8FCBF6003C98D1 /* Alphanumeric String Sort */,
+				5BCE2A732B910FD6002C9918 /* TicTacToe */,
 				5B32B4062B8E53DA003C98D1 /* Assets.xcassets */,
 				5B32B4082B8E53DA003C98D1 /* Preview Content */,
 				5B32B4332B8FCC80003C98D1 /* BalancedParentheses */,
 			);
-			path = AlgorithmChallenge;
+			path = "AlgorithmChallenge Day One";
 			sourceTree = "<group>";
 		};
 		5B32B4082B8E53DA003C98D1 /* Preview Content */ = {
@@ -164,6 +169,15 @@
 				5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */,
 			);
 			path = AlgorithmChallengeDayTwoTest;
+			sourceTree = "<group>";
+		};
+		5BCE2A732B910FD6002C9918 /* TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				5BCE2A742B911015002C9918 /* TicTacToeView.swift */,
+				5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */,
+			);
+			path = TicTacToe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,12 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCE2A752B911015002C9918 /* TicTacToeView.swift in Sources */,
 				5B32B4052B8E53D9003C98D1 /* AlgorithmDayOneView.swift in Sources */,
 				5B32B42F2B8FC830003C98D1 /* MenuView.swift in Sources */,
 				5B32B42D2B8E5F99003C98D1 /* ViewModel.swift in Sources */,
 				5B32B4352B8FCDA0003C98D1 /* BalancedParenthesesViewModel.swift in Sources */,
 				5B32B4032B8E53D9003C98D1 /* AlgorithmChallenge_Day_OneApp.swift in Sources */,
 				5B32B4322B8FCC7B003C98D1 /* BalancedParentheses.swift in Sources */,
+				5BCE2A772B91113D002C9918 /* TicTacToeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +485,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,6 +515,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

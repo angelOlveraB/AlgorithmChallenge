@@ -17,6 +17,9 @@ struct MenuView: View {
                 NavigationLink(destination: BalancedParentheses()) {
                     Text("Balanced Parentheses")
                 }
+                NavigationLink(destination: TicTacToe()) {
+                    Text("Find Winner on a Tic Tac Toe Game")
+                }
             }
             .navigationBarTitle("Daily Algorithm Challenge")
             .navigationBarTitleDisplayMode(.inline)

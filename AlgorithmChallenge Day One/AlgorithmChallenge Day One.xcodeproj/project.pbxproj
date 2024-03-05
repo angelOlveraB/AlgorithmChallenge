@@ -21,6 +21,7 @@
 		5B32B4372B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */; };
 		5B9957092B969D5E000E6360 /* Pascals Triangle View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9957072B969D5E000E6360 /* Pascals Triangle View.swift */; };
 		5B99570A2B969D5E000E6360 /* PascalsTriangleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9957082B969D5E000E6360 /* PascalsTriangleViewModel.swift */; };
+		5B99570C2B969EA0000E6360 /* PascalsTriangleUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99570B2B969EA0000E6360 /* PascalsTriangleUnitTest.swift */; };
 		5BCE2A752B911015002C9918 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A742B911015002C9918 /* TicTacToeView.swift */; };
 		5BCE2A772B91113D002C9918 /* TicTacToeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */; };
 		5BCE2A7B2B9128C5002C9918 /* TicTacToeUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE2A7A2B9128C5002C9918 /* TicTacToeUnitTest.swift */; };
@@ -61,6 +62,7 @@
 		5B32B4362B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balanced Parentheses UnitTest.swift"; sourceTree = "<group>"; };
 		5B9957072B969D5E000E6360 /* Pascals Triangle View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pascals Triangle View.swift"; sourceTree = "<group>"; };
 		5B9957082B969D5E000E6360 /* PascalsTriangleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascalsTriangleViewModel.swift; sourceTree = "<group>"; };
+		5B99570B2B969EA0000E6360 /* PascalsTriangleUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleUnitTest.swift; sourceTree = "<group>"; };
 		5BCE2A742B911015002C9918 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
 		5BCE2A762B91113D002C9918 /* TicTacToeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewModel.swift; sourceTree = "<group>"; };
 		5BCE2A7A2B9128C5002C9918 /* TicTacToeUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUnitTest.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				5B32B4122B8E53DA003C98D1 /* AlgorithmChallenge Day OneTests */,
 				5B32B4382B8FDFD7003C98D1 /* AlgorithmChallengeDayTwoTest */,
 				5B32B41C2B8E53DA003C98D1 /* AlgorithmChallenge Day OneUITests */,
+				5B99570D2B969EA5000E6360 /* PascalsTriangle UnitTests */,
 				5B32B4002B8E53D8003C98D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,11 +119,11 @@
 		5B32B4012B8E53D8003C98D1 /* AlgorithmChallenge Day One */ = {
 			isa = PBXGroup;
 			children = (
-				5B9957062B969D34000E6360 /* PascalsTriangle */,
 				5B32B4022B8E53D9003C98D1 /* AlgorithmChallenge_Day_OneApp.swift */,
 				5B32B42E2B8FC830003C98D1 /* MenuView.swift */,
 				5B32B4302B8FCBF6003C98D1 /* Alphanumeric String Sort */,
 				5BCE2A732B910FD6002C9918 /* TicTacToe */,
+				5B9957062B969D34000E6360 /* PascalsTriangle */,
 				5B32B4062B8E53DA003C98D1 /* Assets.xcassets */,
 				5B32B4082B8E53DA003C98D1 /* Preview Content */,
 				5B32B4332B8FCC80003C98D1 /* BalancedParentheses */,
@@ -186,6 +189,14 @@
 				5B9957082B969D5E000E6360 /* PascalsTriangleViewModel.swift */,
 			);
 			path = PascalsTriangle;
+			sourceTree = "<group>";
+		};
+		5B99570D2B969EA5000E6360 /* PascalsTriangle UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B99570B2B969EA0000E6360 /* PascalsTriangleUnitTest.swift */,
+			);
+			path = "PascalsTriangle UnitTests";
 			sourceTree = "<group>";
 		};
 		5BCE2A732B910FD6002C9918 /* TicTacToe */ = {
@@ -353,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B32B4372B8FDB2F003C98D1 /* Balanced Parentheses UnitTest.swift in Sources */,
+				5B99570C2B969EA0000E6360 /* PascalsTriangleUnitTest.swift in Sources */,
 				5BCE2A7B2B9128C5002C9918 /* TicTacToeUnitTest.swift in Sources */,
 				5B32B4142B8E53DA003C98D1 /* AlgorithmChallenge_Day_OneTests.swift in Sources */,
 			);

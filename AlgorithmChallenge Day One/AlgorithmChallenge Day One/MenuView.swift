@@ -20,6 +20,9 @@ struct MenuView: View {
                 NavigationLink(destination: TicTacToe()) {
                     Text("Find Winner on a Tic Tac Toe Game")
                 }
+                NavigationLink(destination: Pascals_Triangle()) {
+                    Text("Pascal’s Triangle")
+                }
             }
             .navigationBarTitle("Daily Algorithm Challenge")
             .navigationBarTitleDisplayMode(.inline)
